@@ -1,0 +1,35 @@
+html { 
+    font-family: 'Be Vietnam Pro', sans-serif;   /* Cambia la letra de toda la página a 'Be Vietnam Pro' */
+    scroll-behavior: smooth;   /* Hace que al bajar la página se mueva suave, no de golpe */
+}
+
+header {
+    background-color: rgb(235, 233, 233);   /* Le pone un color de fondo gris claro al encabezado (header) */
+}
+
+body {
+    margin: 0%;   /* Quita el espacio de los bordes alrededor de la página */
+    padding: 0%;   /* Quita el espacio dentro de la página para que todo empiece desde los bordes */
+    background-color: white;   /* Le pone un fondo blanco a toda la página */
+}
+
+.inline-container {
+    display: flex;    /* Hace que los elementos se pongan uno al lado del otro (en fila) */
+    align-items: center;   /* Centra los elementos verticalmente en el contenedor */
+    justify-content: space-between;   /* Separa los elementos para que queden uno en cada extremo */
+    padding-inline: 42px;   /* Agrega espacio a los lados izquierdo y derecho del contenedor */
+}
+
+nav {
+    display: flex;   /* Hace que los elementos de la barra de navegación (nav) se alineen en fila */
+    align-items: center;   /* Centra los elementos de nav verticalmente */
+    gap: 18px;   /* Deja un espacio entre cada elemento en nav */
+}
+
+/* Estilo del botón */
+.--button {
+    display: flex;   /* Pone el contenido del botón en fila */
+    padding-inline: 16px;   /* Agrega espacio a los lados del botón */
+    padding-block: 8px;   /* Agrega espacio arriba y abajo del botón */
+    border: 1px solid #e4e4e4;   /* Le pone un borde gris claro al botón */
+}
